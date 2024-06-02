@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color: darkcyan;
+}
+.tienda{
+    background-color: rgb(244, 222, 194);
+    text-align: center;
+    padding: 2rem;
+}
+.tienda img{
+    width:40%;
+    background-color: aquamarine;
+}
+.comunidad{
+    background-color: burlywood;
+    padding: 2rem;
+}
+.comunidad img{
+    width: 40%;
+}
+.texto{
+    padding: 2rem;
+    font-size: 1.6rem;
+}
+.footer{
+    height: 15vh;
+    background-color: darkolivegreen;
+    color: white
+}
+@media(min-width: 768px){
+    body{
+        background-color: blueviolet;
+    }
+    .tienda{
+        background-color: crimson;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+        justify-content: space-around;
+    }
+    .tienda div{    
+        background-color: coral;
+        width: 40%;
+    }
+    .tienda img{
+        width: 90%;
+        padding: 1rem;
+    }
+    .comunidad{
+        background-color: darkslategrey;
+        display: flex;
+    }
+    .comunidad div{
+        width: 50%;
+    }
+    .comunidad img{
+        width: 100%;
+    }
+    .footer{
+        background-color: lavender;
+        color: black;
+    }
+}
+@media(min-width: 992px){
+    .tienda{
+        flex-wrap: nowrap;
+    }
+}
+@media(min-width: 1200px){
+    body{
+        background-color: darkred;
+    }
+}
+@media (min-width: 552px){
+    .agregado{
+        display: none;
+    }
+}
+@media (max-width: 551px){
+    .menu-principal{
+        display: none;
+    }
+}

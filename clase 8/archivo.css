@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.gradiante{
+    height: 20vh;
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(202,179,214,1) 45%, rgba(178,186,230,1) 75%, rgba(148,187,233,1) 100%);
+}
+.box_ejemplo{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    transition: all 2s;
+    overflow: hidden;
+}
+.box_ejemplo:hover{
+    height: 200px;
+    width: 200px;
+    padding: 2rem;
+    background-color: blue;
+}
+.box_ejemplo2{
+    height: 100px;
+    width: 150px;
+    background-color: darkcyan;
+    transition: all 2s;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+.box_ejemplo2:hover{
+    transform: skew(25deg);
+    margin-left: 1rem;
+    padding: 1rem;
+}
+label{
+    display: block;
+}
+.ejemplo_3{
+    margin-top: 1rem;
+    padding: 1.5rem;
+}
+.caja{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.input{
+    background-color: cadetblue;
+    transition: all 2s;
+    width: 60%;
+}
+.input:focus{
+    background-color: bisque;
+}
+.ejemplo_4{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    animation-name: fulanito;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+@keyframes fulanito {
+    0%{ width: 100px; }
+    0.2s{ width: 50px; }
+    25%{ width: 300px; }
+    50%{ width: 200px;
+    background-color: red; }
+    75%{ width: 300px;}
+    100%{ width: 100px;
+    background-color:green;}
+} 

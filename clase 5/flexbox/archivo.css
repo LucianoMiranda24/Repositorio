@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenedor_dad{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.caja{
+    height: 150px;
+    width: 150px;
+}
+.rojo{
+    background-color: red;
+
+    color: white;
+    width: 20%;
+}
+.azul{
+    background-color: blue;
+    width: 20%;
+}
+.amarillo{
+    background-color: yellow;
+    width: 20%;
+}
+.rosa{
+    background-color: pink;
+    width: 20%;
+}
+.naranja{
+    background-color: orange;
+    width: 20%;
+}
+.header{
+    background-color: darkcyan;
+}
+.logo{
+    text-align: center;
+    height: 150px;
+}
+.logo img{
+    height: 100%;
+}
+.contenido_superior{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    width:90%;
+
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    color: brown;
+}
+.login{
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: brown;
+}
+.texto{
+    background-color: cadetblue;
+
+}
