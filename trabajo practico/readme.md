@@ -1,0 +1,1 @@
+Este trabajo, se me hizo un poco complicado debido a la falta de practica, me gustaria saber que es y cuales son todas las funciones de boostrap, una cosa muy fundamental para la maquetacion web es el grid, no lo implemente en este proyecto debido al no acordarme como funciona.
